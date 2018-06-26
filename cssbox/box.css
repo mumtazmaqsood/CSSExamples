@@ -1,11 +1,38 @@
+
+/*It’s usually a good idea to override default styles to a predictable value using 
+the “universal” CSS selector (*). 
+Try adding this to the top of our box-styles.css file:*/
+
+/* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}*/
+
 body {
-  background: #00ff00;
+  background: #00ffff;
+  text-align: center;
 }
 
 h1, p {
     background-color: #DDE0E3;    /* Light gray */
+    padding: 20px;
+    margin:10px;
   }
   
   em, strong {
     background-color: #B2D6FF;    /* Light blue */
   }
+
+  div {
+    color: #FFF;
+    background-color: #4A90E2;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+  
+    width: 200px;
+    box-sizing: border-box;
+    margin: 50px auto; /* Vertical  Horizontal */
+  }
+
