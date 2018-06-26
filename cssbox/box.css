@@ -3,11 +3,11 @@
 the “universal” CSS selector (*). 
 Try adding this to the top of our box-styles.css file:*/
 
-/* {
+ * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}*/
+}
 
 body {
   background: #00ffff;
