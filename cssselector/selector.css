@@ -92,3 +92,17 @@ a:active {
 .call-to-action:visited:active{
     background-color: #EEB75A;     /* Yellow */
 }
+
+/*this select last paragh and make bottom margin 50px
+.page > will define its scope only in page class , otherwise its scope will global*/
+.page > p:last-of-type {
+    margin-bottom: 50px;
+}
+
+/*select first paragraph , make bottom margin and change its color, bgcolor*/
+.page > p:first-of-type {
+    margin-bottom: 50px;
+    color: green;
+    background-color: #EEB75A;
+    
+}
