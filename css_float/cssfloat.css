@@ -40,3 +40,11 @@
     height: 200px;
     background-color: #D6E9FE;    /* Light blue */
 }
+
+.column{
+    float:left;
+    width: 31%;
+    height: 160px;
+    margin: 20px 1.15%;
+    background-color: #B2D6FF;    /* Medium blue */
+}
