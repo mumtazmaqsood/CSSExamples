@@ -9,8 +9,14 @@
     width: 900px;
     margin: 0 auto;
     border: 1px solid red;
+    overflow: hidden;
+    background-color: #EAEDF0;    /* Add this */
 }
 
+.container{
+    overflow: hidden;
+    background-color: #EAEDF0;
+}
 .menu {
     height: 100px;
     background-color: #B2D6FF;    /* Medium blue */

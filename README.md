@@ -9,4 +9,6 @@ This repo has different css examples
 note: Float-based layouts have mostly been replaced with Flexbox in modern 
 #Left Align     #Center Align       #Right Align
 float:left       margin:0 auto;       float:right;
+
+#To summarize, when you have an extra unfloated HTML element at the bottom of a container div, use the clear solution. Otherwise, add an overflow: hidden declaration to the container element. The underlying idea for both options is that you need a way to tell the browser to incorporate floats into the height of their container element in order for their backgrounds to show up.
 -------------------------------------------------------------------------------------------------
