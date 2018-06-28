@@ -36,8 +36,9 @@
 }
 
 .footer {
-    clear: both;
-    height: 200px;
+    /*clear: both;
+    height: 200px;*/
+    overflow: hidden;
     background-color: #D6E9FE;    /* Light blue */
 }
 
