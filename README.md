@@ -12,3 +12,7 @@ float:left       margin:0 auto;       float:right;
 
 #To summarize, when you have an extra unfloated HTML element at the bottom of a container div, use the clear solution. Otherwise, add an overflow: hidden declaration to the container element. The underlying idea for both options is that you need a way to tell the browser to incorporate floats into the height of their container element in order for their backgrounds to show up.
 -------------------------------------------------------------------------------------------------
+
+#FlexBox
+--------------------------------
+#flexbox gives us complete control over the alignment, direction, order, and size of our boxes.  Whereas floats only let us horizontally position and were originally intended for the magazine-style layouts.
