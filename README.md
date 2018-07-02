@@ -17,3 +17,13 @@ float:left       margin:0 auto;       float:right;
 --------------------------------
 #flexbox gives us complete control over the alignment, direction, order, and size of our boxes.  Whereas floats only let us horizontally position and were originally intended for the magazine-style layouts.
 #Flexbox uses two types of boxes that we’ve never seen before: “flex containers” and “flex items”. The job of a flex container is to group a bunch of flex items together and define how they’re positioned.
+
+#justify-conten works for flex-items
+            Other values for justify-content are shown below:
+            center
+            flex-start
+            flex-end
+            space-around
+            space-between
+
+#Gropping Flex Items is useful to manage website layout, it gives more control over desigin layout
