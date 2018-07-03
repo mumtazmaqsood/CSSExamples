@@ -27,10 +27,14 @@ float:left       margin:0 auto;       float:right;
             space-between
 
 #Gropping Flex Items is useful to manage website layout, it gives more control over desigin layout
-align-items:center, this property align items vertically, other values shown below 
+
+# align-items:center, this property align items vertically, other values shown below 
                     #center
                     #flex-start   (top)
                     #flex-end      (bottom)
                     #stretch
                     #baseline
+# Wrapping Flex Items
+Flexbox is a more powerful alternative to float-based grids. Not only can it render items as a grid—it can change their alignment, direction, order, and size, too. To create a grid, we need the flex-wrap property.
+
 
