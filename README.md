@@ -36,5 +36,10 @@ float:left       margin:0 auto;       float:right;
                     #baseline
 # Wrapping Flex Items
 Flexbox is a more powerful alternative to float-based grids. Not only can it render items as a grid—it can change their alignment, direction, order, and size, too. To create a grid, we need the flex-wrap property.
+------------------------------------------------------------------------------------
 
+# Advance Positioning
+#“Static positioning” refers to the normal flow of the page that we’ve been working with up ’til this point. The CSS Box Model, floats, and flexbox layout schemes all operate in this “static” flow, but that’s not the only positioning scheme available in CSS.
+        #The other three types of positioning are “relative”, “absolute”, and “fixed”. 
+#advanced positioning lets you say things like “Put that box 20 pixels above and 50 pixels to the right of its parent’s origin.”
 
