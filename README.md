@@ -43,3 +43,5 @@ Flexbox is a more powerful alternative to float-based grids. Not only can it ren
         #The other three types of positioning are “relative”, “absolute”, and “fixed”. 
 #advanced positioning lets you say things like “Put that box 20 pixels above and 50 pixels to the right of its parent’s origin.”
 
+            #Relative positioning
+            #“Relative positioning” moves elements around relative to where they would normally appear in the static flow of the page. This is useful for nudging boxes around when the default flow is just a little bit off.
